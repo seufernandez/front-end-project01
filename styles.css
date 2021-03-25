@@ -43,6 +43,13 @@ nav a:hover{
     transition: 300ms;
 }
 
+#nav-active{
+    background-color: #965b2b;
+    color: var(--color-brownp);
+    border: 2px solid var(--color-brownp) ;
+    text-decoration: underline;
+}
+
 body{
     background-color: var(--color-brownp);
 }
