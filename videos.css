@@ -124,7 +124,7 @@ h1{
  }
 
  .modal{
-     background-color:white;
+     background-color:rgb(68, 41, 14);
      width:90%;
      height: 90%;
 
@@ -149,4 +149,13 @@ h1{
 .modal-overlay.active {
     opacity: 1;
     visibility: visible;
+}
+iframe{
+    width:100%;
+    height:95%;
+
+    /*Ocorreu um problema que o elemento pai dele so preenchia uma parte do modal, entao tive que colocar o position absolute pra o video ocupar todo o quadro do modal, respeitando os limites do background*/
+
+    position:absolute;
+    top: 5%
 }
